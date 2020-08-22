@@ -19,6 +19,7 @@
 .calc {
   padding: 30px;
   display: flex;
+  flex-flow: wrap;
   justify-content: center;
 }
 
@@ -32,6 +33,7 @@
 .col-1 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .col-2 {
@@ -44,6 +46,7 @@
 .col-3 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .col-4 {
@@ -56,6 +59,14 @@
 .col-5 {
   display: flex;
   flex-direction: column;
+}
+
+.col-6 {
+  color: #1b262c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
 }
 
 input {

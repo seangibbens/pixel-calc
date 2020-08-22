@@ -141,6 +141,7 @@ const Calc = () => {
         </div>
         <input type="number" value={newWidth} readOnly />
       </div>
+      <div className="col-6">?</div>
     </div>
   );
 };
